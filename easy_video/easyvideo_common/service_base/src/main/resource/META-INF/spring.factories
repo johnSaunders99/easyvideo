@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.easyvideo.service_base.handler.MybatisPlusMetaObjectHandler,\
+  top.easyvideo.service_base.config.MybatisPlusAppConfig,\
+  top.easyvideo.service_base.config.RedisConfig

@@ -1,0 +1,16 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+
+# 阿里云  账户 acckey
+aliyun:
+  keyid: 
+  keysecret: 
+
+
+
+feign:
+  sentinel:
+    enabled: true

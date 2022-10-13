@@ -1,0 +1,20 @@
+# Spring
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: ${NACOS_URL:nacos}:8848
+        group: easyvideo_video
+
+      config:
+        # 配置中心地址
+        server-addr: ${NACOS_URL:nacos}:8848
+        group: easyvideo_video
+        # 配置文件格式
+        file-extension: yml
+        # 共享配置
+        shared-configs[0]:
+          data-id: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          group: ${spring.cloud.nacos.config.group}
+          refresh: true

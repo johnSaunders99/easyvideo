@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.easyvideo.api_user.factory.RemoteUserFactory,\
+  top.easyvideo.api_user.entity.User

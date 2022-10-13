@@ -1,0 +1,36 @@
+server:
+  port: 8001
+
+logging:
+  pattern:
+    console: "%clr(%5p) %clr(-){faint} %clr(%-80.80logger{79}){cyan} %clr(:) %m%n"
+    level: debug,info,warn
+spring:
+  application:
+    name: service-video
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: ${NACOS_URL:nacos}:8848
+        group: easyvideo_video
+
+      config:
+        # 配置中心地址
+        server-addr: ${NACOS_URL:nacos}:8848
+        group: easyvideo_video
+        # 配置文件格式
+        file-extension: yml
+        # 共享配置
+        shared-configs[0]:
+          data-id: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          group: ${spring.cloud.nacos.config.group}
+          refresh: true
+    # 熔断
+    sentinel:
+      transport:
+        dashboard: http://localhost:8081

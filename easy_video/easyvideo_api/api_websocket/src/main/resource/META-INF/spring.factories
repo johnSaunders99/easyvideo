@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.easyvideo.api_websocket.factory.WebSocketFactory

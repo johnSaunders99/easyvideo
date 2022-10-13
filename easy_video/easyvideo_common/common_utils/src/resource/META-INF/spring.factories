@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.easyvideo.common_utils.config.ApplicationConfig,\
+  top.easyvideo.common_utils.config.NacosRefreshConfig

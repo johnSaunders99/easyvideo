@@ -1,0 +1,31 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: xxxxxxxxx
+    port: 6391
+    database: 3
+    timeout: 1800000
+    password: xxxxxxxx
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: 1
+        max-idle: 5
+        min-idle: 0
+
+
+#阿里云账户key 密钥
+aliyun:
+  regionId: cn-hangzhou
+  accessKey: xxxxx
+  accessSecret: xxxxxxx
+
+# 腾讯云短信发送
+tencent:
+  signName: xxx
+  accessKey: xxxx
+  templateId: xxx
+  smsSdkAppId: xxx
+  accessSecret: xxx
