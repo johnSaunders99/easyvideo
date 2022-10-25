@@ -1,15 +1,15 @@
 /*
- * Lan Sheng  Copyright (c) 2022 https://easyvideo.top.
+ * Lan Sheng  Copyright (c) 2022 https://127.0.0.1.
  * Copyright (c) 2022. easyvideo, personal projects are not allowed to be commercialized without permission.
  * Please keep the information of the original author of the code. Thank you
  */
 
 /*
- * Lan Sheng  Copyright (c) 2021 https://easyvideo.top.
+ * Lan Sheng  Copyright (c) 2021 https://127.0.0.1.
  */
 
 /*
- * Lan Sheng  Copyright (c) 2021 https://easyvideo.top.
+ * Lan Sheng  Copyright (c) 2021 https://127.0.0.1.
  */
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -293,11 +293,11 @@ CREATE TABLE `cms_banner` (
 -- Records of cms_banner
 -- ----------------------------
 INSERT INTO `cms_banner` VALUES ('1', '焦点图1', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/banner01.png', 'http://www.fmjava.com', '#3366ff', '1', '0');
-INSERT INTO `cms_banner` VALUES ('1453593841650061313', '新增焦点图', 'https://oss-yby.easyvideo.top/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', 'https://easyvideo.top', '#4119d6', '3', '0');
-INSERT INTO `cms_banner` VALUES ('1453596314259369986', '兰生', 'https://oss-yby.easyvideo.top/2021/10/28/b0243e35dd2242589a14161c225193452.png', 'https://baidu.com', '#866f62', '4', '0');
-INSERT INTO `cms_banner` VALUES ('1453596642593681409', '还要一张发', 'https://oss-yby.easyvideo.top/2021/10/28/77b3045357dc4099a82e4d5d4623111d0.png', 'https://easyvideo.top', '#0084ff', '1', '0');
-INSERT INTO `cms_banner` VALUES ('1453600455480197122', '测试redis', 'https://oss-yby.easyvideo.top/2021/10/28/e35aa85c1cae456abf54596ac373d969bg1.jpg', 'https://easyvideo.top', '#5c6b83', '1', '0');
-INSERT INTO `cms_banner` VALUES ('1453609729451245569', '倒萨倒萨倒萨倒萨倒萨啊', 'https://oss-yby.easyvideo.top/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', 'https://easyvideo.top', '', '1', '1');
+INSERT INTO `cms_banner` VALUES ('1453593841650061313', '新增焦点图', 'https://oss-yby.127.0.0.1/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', 'https://127.0.0.1', '#4119d6', '3', '0');
+INSERT INTO `cms_banner` VALUES ('1453596314259369986', '兰生', 'https://oss-yby.127.0.0.1/2021/10/28/b0243e35dd2242589a14161c225193452.png', 'https://baidu.com', '#866f62', '4', '0');
+INSERT INTO `cms_banner` VALUES ('1453596642593681409', '还要一张发', 'https://oss-yby.127.0.0.1/2021/10/28/77b3045357dc4099a82e4d5d4623111d0.png', 'https://127.0.0.1', '#0084ff', '1', '0');
+INSERT INTO `cms_banner` VALUES ('1453600455480197122', '测试redis', 'https://oss-yby.127.0.0.1/2021/10/28/e35aa85c1cae456abf54596ac373d969bg1.jpg', 'https://127.0.0.1', '#5c6b83', '1', '0');
+INSERT INTO `cms_banner` VALUES ('1453609729451245569', '倒萨倒萨倒萨倒萨倒萨啊', 'https://oss-yby.127.0.0.1/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', 'https://127.0.0.1', '', '1', '1');
 INSERT INTO `cms_banner` VALUES ('2', '焦点图2', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/banner02.png', 'http://www.fmjava.com', '#ff761c', '2', '0');
 
 -- ----------------------------
@@ -386,14 +386,14 @@ INSERT INTO `pay_order` VALUES ('1346427248112562177', '20210105200406516', '132
 INSERT INTO `pay_order` VALUES ('1346734215355867137', '20210106162352293', '1321336659541139458', '作品标题-生活-电影', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/10/28/6185bfb7f021446fa3d174740070fec6基础班3 .png', 'test2', '1341407389878714369', '高新强', '', '11.00', '2', '1', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
 INSERT INTO `pay_order` VALUES ('1346785439698558977', '20210106194725595', '1320633170208923650', '作品标题生活-电影', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/10/26/d24ef4fd04e24cfdb93134ed3911dd80基础班3 .png', 'gxq', '1341378962605867009', '疯码Java-高新强', '', '88.00', '2', '1', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
 INSERT INTO `pay_order` VALUES ('1346961300317949954', '2247712496283323', '1321723907591823362', 'it编程', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/10/29/a0cb3fe0dc914fb0a1e7c169ad7ce0ecSpringBoot框架.png', 'test221', '1341407389878714369', '高新强', '', '12.00', '2', '1', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
-INSERT INTO `pay_order` VALUES ('1451611986727440385', '2299682472600728', '1449386177602232321', '工作流activity', 'https://oss-yby.easyvideo.top/2021/10/16/a97175db84be4aef94e5de22b537b532evection.bpmn.png', 'test221', '1448232787013222401', 'TrouBles', '', '120.00', '2', '0', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
+INSERT INTO `pay_order` VALUES ('1451611986727440385', '2299682472600728', '1449386177602232321', '工作流activity', 'https://oss-yby.127.0.0.1/2021/10/16/a97175db84be4aef94e5de22b537b532evection.bpmn.png', 'test221', '1448232787013222401', 'TrouBles', '', '120.00', '2', '0', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
 INSERT INTO `pay_order` VALUES ('1451613567493509121', '9069861819780213', '1336529953053081602', 'asdfasdfasdfa', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/12/09/72020b33396e48b3bbf64ef9bafad486v7.png', 'aaa', '1448232787013222401', 'TrouBles', '', '10.00', '2', '0', '0', '2021-10-23 10:22:26', '2021-10-23 10:22:26');
 INSERT INTO `pay_order` VALUES ('1453641806385221633', '8252705731961913', '1320633170208923650', '从零玩转Java基础', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/10/26/d24ef4fd04e24cfdb93134ed3911dd80基础班3 .png', '兰生', '1453564754294423553', 'A', '', '88.00', '2', '0', '0', '2021-10-28 16:36:29', '2021-10-28 16:36:29');
-INSERT INTO `pay_order` VALUES ('1453642228114096129', '3861086825764216', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1453564754294423553', 'A', '', '12.00', '2', '0', '0', '2021-10-28 16:38:09', '2021-10-28 16:38:09');
-INSERT INTO `pay_order` VALUES ('1453650326438518786', '0567652985350856', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:10:20', '2021-10-28 17:10:20');
-INSERT INTO `pay_order` VALUES ('1453660031323885569', '6835705195978412', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:48:54', '2021-10-28 17:48:54');
-INSERT INTO `pay_order` VALUES ('1453660783161327617', '4770187061274165', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:51:53', '2021-10-28 17:51:53');
-INSERT INTO `pay_order` VALUES ('1453666807918321665', '7946949239919770', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '1', '0', '2021-10-28 18:15:49', '2021-10-28 18:16:15');
+INSERT INTO `pay_order` VALUES ('1453642228114096129', '3861086825764216', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1453564754294423553', 'A', '', '12.00', '2', '0', '0', '2021-10-28 16:38:09', '2021-10-28 16:38:09');
+INSERT INTO `pay_order` VALUES ('1453650326438518786', '0567652985350856', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:10:20', '2021-10-28 17:10:20');
+INSERT INTO `pay_order` VALUES ('1453660031323885569', '6835705195978412', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:48:54', '2021-10-28 17:48:54');
+INSERT INTO `pay_order` VALUES ('1453660783161327617', '4770187061274165', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '0', '0', '2021-10-28 17:51:53', '2021-10-28 17:51:53');
+INSERT INTO `pay_order` VALUES ('1453666807918321665', '7946949239919770', '1448484238369181697', '从零玩转Java基础', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '兰生', '1448232787013222401', 'TrouBles', '', '12.00', '2', '1', '0', '2021-10-28 18:15:49', '2021-10-28 18:16:15');
 
 -- ----------------------------
 -- Table structure for portal_user
@@ -452,7 +452,7 @@ INSERT INTO `video_author` VALUES ('1', 'test221', 'aaaa', 'aaa', '0', 'https://
 INSERT INTO `video_author` VALUES ('1309048340722147329', 'gxq1111', 'intro111', 'career', '0', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/11/24/020b4af2bfd5401e8b9813318b024ad7file.png', '0', '0', '2020-09-24 16:33:40', '2020-09-28 23:39:29');
 INSERT INTO `video_author` VALUES ('1310529597436022785', 'aaa', 'aaaaaa', 'aaaa', '0', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/11/24/020b4af2bfd5401e8b9813318b024ad7file.png', '0', '0', '2020-09-28 18:39:39', '2020-09-28 18:39:39');
 INSERT INTO `video_author` VALUES ('1315098899908636673', 'aaaa', 'asdfasdfasdfa', 'aaaa', '0', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/10/11/2cef78a214d04bc88bb77bf63141c999file.png', '1', '0', '2020-10-11 09:16:26', '2020-10-11 09:16:26');
-INSERT INTO `video_author` VALUES ('1448480395057123329', '兰生', '兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生杨', '兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生', '0', 'https://oss-yby.easyvideo.top/2021/10/14/dc36757555f4406a8c4ba2dd7ca14f27file.png', '0', '0', '2021-10-14 10:46:52', '2021-10-22 15:04:20');
+INSERT INTO `video_author` VALUES ('1448480395057123329', '兰生', '兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生杨', '兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生兰生', '0', 'https://oss-yby.127.0.0.1/2021/10/14/dc36757555f4406a8c4ba2dd7ca14f27file.png', '0', '0', '2021-10-14 10:46:52', '2021-10-22 15:04:20');
 INSERT INTO `video_author` VALUES ('2', 'test2', '', null, '0', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/11/24/020b4af2bfd5401e8b9813318b024ad7file.png', '0', '0', '2020-09-20 15:39:57', '2020-09-20 15:40:00');
 INSERT INTO `video_author` VALUES ('3', 'gxq', '', null, '1', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/11/24/020b4af2bfd5401e8b9813318b024ad7file.png', '0', '0', '2020-09-22 12:42:35', '2020-09-22 12:42:39');
 
@@ -566,9 +566,9 @@ INSERT INTO `video_content` VALUES ('1336526145921089538', '1309048340722147329'
 INSERT INTO `video_content` VALUES ('1336526557554278402', '1310529597436022785', '1316398091253256193', '1316398091156787201', 'adffasdfasdfa', '0.00', '11', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/12/09/ed325ddf48d84c819c4e99be43715dcev3.png', '0', '5', '1', 'Normal', '0', '2020-12-09 12:22:17', '2021-10-14 10:42:18');
 INSERT INTO `video_content` VALUES ('1336529462655057921', '1309048340722147329', '1316398091760766977', '1316398091676880898', 'asdfasdfasdfa', '12.00', '1', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/12/09/f999206102624458b483d61b892bf2c9v6.png', '0', '12', '1', 'Normal', '0', '2020-12-09 12:33:50', '2021-10-14 10:42:15');
 INSERT INTO `video_content` VALUES ('1336529953053081602', '1310529597436022785', '1316398091622354945', '1316398091437805570', 'asdfasdfasdfa', '10.00', '12', 'https://fmjava01.oss-cn-hangzhou.aliyuncs.com/2020/12/09/72020b33396e48b3bbf64ef9bafad486v7.png', '0', '46', '1', 'Normal', '0', '2020-12-09 12:35:47', '2021-10-14 10:41:35');
-INSERT INTO `video_content` VALUES ('1448484238369181697', '1448480395057123329', '1316398091760766977', '1316398091676880898', '从零玩转Java基础', '12.00', '12', 'https://oss-yby.easyvideo.top/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '0', '65', '1', 'Normal', '0', '2021-10-14 11:02:09', '2021-10-28 18:42:08');
-INSERT INTO `video_content` VALUES ('1449386177602232321', '1', '1448520644160344066', '1448520269072125954', '工作流activity', '120.00', '1', 'https://oss-yby.easyvideo.top/2021/10/16/a97175db84be4aef94e5de22b537b532evection.bpmn.png', '0', '85', '1', 'Normal', '0', '2021-10-16 22:46:08', '2021-10-28 14:59:17');
-INSERT INTO `video_content` VALUES ('1451423070118526977', '1448480395057123329', '1448520269156012034', '1448520269072125954', '测试前端视频播放', '0.00', '1', 'https://oss-yby.easyvideo.top/2021/10/22/a685592f2bfc4018ac3b8d7ef819c3d4screenshot.png', '0', '16', '1', 'Normal', '0', '2021-10-22 13:40:01', '2021-10-28 18:42:44');
+INSERT INTO `video_content` VALUES ('1448484238369181697', '1448480395057123329', '1316398091760766977', '1316398091676880898', '从零玩转Java基础', '12.00', '12', 'https://oss-yby.127.0.0.1/2021/10/14/823abd9c618b4b5c938e06b1284c37bblogo.jpg', '0', '65', '1', 'Normal', '0', '2021-10-14 11:02:09', '2021-10-28 18:42:08');
+INSERT INTO `video_content` VALUES ('1449386177602232321', '1', '1448520644160344066', '1448520269072125954', '工作流activity', '120.00', '1', 'https://oss-yby.127.0.0.1/2021/10/16/a97175db84be4aef94e5de22b537b532evection.bpmn.png', '0', '85', '1', 'Normal', '0', '2021-10-16 22:46:08', '2021-10-28 14:59:17');
+INSERT INTO `video_content` VALUES ('1451423070118526977', '1448480395057123329', '1448520269156012034', '1448520269072125954', '测试前端视频播放', '0.00', '1', 'https://oss-yby.127.0.0.1/2021/10/22/a685592f2bfc4018ac3b8d7ef819c3d4screenshot.png', '0', '16', '1', 'Normal', '0', '2021-10-22 13:40:01', '2021-10-28 18:42:44');
 
 -- ----------------------------
 -- Table structure for video_content_description

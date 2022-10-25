@@ -2,6 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/api_pay.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/api_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/api_user/api_user.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/api_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/api_video/api_video.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/api_video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/api_vod.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/api_vod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/api_websocket.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/api_websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/common_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideoVideo.iml" filepath="$PROJECT_DIR$/easy_video/easyvideoVideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_api/easyvideo_api.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_api/easyvideo_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_common/easyvideo_common.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_common/easyvideo_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_gateway/easyvideo_gateway.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_gateway/easyvideo_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/easyvideo_service.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/easyvideo_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/service_authority.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/service_authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_common/service_base/service_base.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/service_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/service_cms.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/service_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/service_pay.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/service_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_common/service_security/service_security.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/service_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/service_sms.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/service_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/service_upload.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/service_upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_user/service_user.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_video/service_video.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/service_video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/service_vod.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/service_vod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/service_websocket.iml" filepath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/service_websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yi.iml" filepath="$PROJECT_DIR$/.idea/yi.iml" />
     </modules>
   </component>

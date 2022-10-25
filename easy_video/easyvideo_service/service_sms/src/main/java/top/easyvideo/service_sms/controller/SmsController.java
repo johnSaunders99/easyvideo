@@ -1,4 +1,4 @@
-// Lan Sheng  Copyright (c) 2022 https://easyvideo.top.
+// Lan Sheng  Copyright (c) 2022 https://127.0.0.1.
 // Copyright (c) 2022. easyvideo, personal projects are not allowed to be commercialized without permission.
 // Please keep the information of the original author of the code. Thank you
 
@@ -109,7 +109,7 @@ public class SmsController {
         String to = map.get("to").toString();
         String subject = map.get("subject").toString();
         String userName = map.get("userName").toString();
-        boolean flag = MailUtil.sendEmail(to, subject, userName, true, "", "博客地址: https://www.easyvideo.top");
+        boolean flag = MailUtil.sendEmail(to, subject, userName, true, "", "博客地址: https://www.127.0.0.1");
         //发送成功
         if (flag) {
             return ResponseResult.ok();

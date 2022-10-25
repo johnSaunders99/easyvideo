@@ -3,11 +3,11 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   redis:
-    host: xxxxxxxxx
-    port: 6391
+    host: 127.0.0.1
+    port: 6379
     database: 3
     timeout: 1800000
-    password: xxxxxxxx
+    password: lansheng1
     lettuce:
       pool:
         max-active: 20

@@ -1,5 +1,5 @@
 <!--
-  - Lan Sheng  Copyright (c) 2021 https://easyvideo.top.
+  - Lan Sheng  Copyright (c) 2021 https://127.0.0.1.
   -->
 
 <template>
@@ -143,8 +143,8 @@ export default {
         id: '',
         title: '',
         imageBg: '',
-        imageUrl: 'https://oss-yby.easyvideo.top/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', // 封面
-        linkUrl: 'https://easyvideo.top',
+        imageUrl: 'https://oss-yby.127.0.0.1/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', // 封面
+        linkUrl: 'https://127.0.0.1',
         sort: 1
       },
       total: 0,
@@ -174,7 +174,7 @@ export default {
     },
     // 上传成功的回调
     uploadSuccess(res, file) {
-      // https://oss-yby.easyvideo.top/2021/10/28/f34c96d4eac241c7882968a71d9878663.png
+      // https://oss-yby.127.0.0.1/2021/10/28/f34c96d4eac241c7882968a71d9878663.png
       this.form.imageUrl = res.data.rows
     },
     // 获取焦点列表
@@ -253,8 +253,8 @@ export default {
         id: '',
         title: '',
         imageBg: '',
-        imageUrl: 'https://oss-yby.easyvideo.top/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', // 封面
-        linkUrl: 'https://easyvideo.top',
+        imageUrl: 'https://oss-yby.127.0.0.1/2021/10/28/f34c96d4eac241c7882968a71d9878663.png', // 封面
+        linkUrl: 'https://127.0.0.1',
         sort: 1
       }
       // 重新查询

@@ -1,8 +1,8 @@
 # aliyun oss 文件上传
 oss:
-  endpoint:
-  accessKeyId:
-  accessKeySecret:
-  bucketName:
-  path: https://oss-yby.easyvideo.top/
+  endpoint: 1
+  accessKeyId: 1
+  accessKeySecret: 2
+  bucketName: 333
+  path: https://oss-yby.127.0.0.1/
 

@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
- -  Lan Sheng  Copyright (c) 2021 https://easyvideo.top.
+ -  Lan Sheng  Copyright (c) 2021 https://127.0.0.1.
  -----------------------------------------------------------------------------*/
 
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -49,7 +49,7 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://www.easyvideo.top:3310/video_db?serverTimezone=GMT%2B8&characterEncoding=utf-8");
+        dsc.setUrl("jdbc:mysql://www.127.0.0.1:3310/video_db?serverTimezone=GMT%2B8&characterEncoding=utf-8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("easyvideoya");

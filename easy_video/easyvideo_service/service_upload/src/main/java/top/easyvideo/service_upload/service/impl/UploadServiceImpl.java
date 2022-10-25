@@ -1,4 +1,4 @@
-// Lan Sheng  Copyright (c) 2022 https://easyvideo.top.
+// Lan Sheng  Copyright (c) 2022 https://127.0.0.1.
 // Copyright (c) 2022. easyvideo, personal projects are not allowed to be commercialized without permission.
 // Please keep the information of the original author of the code. Thank you
 
@@ -74,7 +74,7 @@ public class UploadServiceImpl implements UploadService {
 
             ossClient.putObject(bucketName, fileName, inputStream);
             /*
-            https://oss-yby.easyvideo.top/2021/09/23/1c1bc81285b743c9acfb786962375a38file.png
+            https://oss-yby.127.0.0.1/2021/09/23/1c1bc81285b743c9acfb786962375a38file.png
             * */
             log.info("文件上次完毕:{}", OssConstant.PATH_NAME + fileName);
             return OssConstant.PATH_NAME + fileName;

@@ -17,12 +17,14 @@ spring:
       discovery:
         # 服务注册地址
         server-addr: ${NACOS_URL:nacos}:8848
-        group: easyvideo_video
+        group: ${NACOS_GROUP:nacos_config}
+        namespace: ${NACOS_NAMESPACE:1bc63070-6544-4001-b912-ccf8d39aa556}
 
       config:
         # 配置中心地址
         server-addr: ${NACOS_URL:nacos}:8848
-        group: easyvideo_video
+        group: ${NACOS_GROUP:nacos_config}
+        namespace: ${NACOS_NAMESPACE:1bc63070-6544-4001-b912-ccf8d39aa556}
         # 配置文件格式
         file-extension: yml
         # 共享配置

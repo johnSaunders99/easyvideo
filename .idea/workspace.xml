@@ -1,11 +1,878 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a9d264e-f104-47b6-a2ac-3c8a0ff0c886" name="默认更改列表" comment="init2">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_sdk_alipay_sdk_java_4_11_8_ALL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_vod_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_sdk_vod_upload_1_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_ui_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_logging_interceptor_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tencentcloudapi_tencentcloud_sdk_java_3_1_322.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_schemas_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/src/main/java/top/easyvideo/api_pay/RemotePayOrderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/src/main/java/top/easyvideo/api_pay/RemotePayOrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/src/main/java/top/easyvideo/api_pay/factory/RemotePayOrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_pay/src/main/java/top/easyvideo/api_pay/factory/RemotePayOrderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/RemoteUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/RemoteUserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/factory/RemoteUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_user/src/main/java/top/easyvideo/api_user/factory/RemoteUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/RemoteContentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/RemoteContentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Chapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/ContentDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/ContentDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/ContentVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/ContentVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/category/LevelCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/category/LevelCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/AuthorQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/AuthorQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/BaseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/BaseVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ChapterVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ChapterVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentPreviewVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentPreviewVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVideoInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVideoInfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVideoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVideoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentWebVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/entity/vo/ContentWebVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/factory/RemoteContentClientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_video/src/main/java/top/easyvideo/api_video/factory/RemoteContentClientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/src/main/java/top/easyvideo/api_vod/VodClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/src/main/java/top/easyvideo/api_vod/VodClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/src/main/java/top/easyvideo/api_vod/factory/VodCallBackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_vod/src/main/java/top/easyvideo/api_vod/factory/VodCallBackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/src/main/java/top/easyvideo/api_websocket/RemoteWebsocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/src/main/java/top/easyvideo/api_websocket/RemoteWebsocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/src/main/java/top/easyvideo/api_websocket/factory/WebSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/api_websocket/src/main/java/top/easyvideo/api_websocket/factory/WebSocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/annotation/EnableCustomConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/annotation/EnableCustomConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/annotation/EnableYsFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/annotation/EnableYsFeignClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/CloudConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/CloudConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/OrderConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/constant/OrderConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/ServletUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/common_utils/src/main/java/top/easyvideo/common_utils/utils/UUIDUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/EasyVideoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/EasyVideoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/MybatisPlusAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/MybatisPlusAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/controller/core/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/controller/core/vo/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/controller/core/vo/RegisterVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/controller/core/vo/RegisterVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/TransactionalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/exception/TransactionalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/handler/MybatisPlusMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/handler/MybatisPlusMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/file/MimeTypeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/file/MimeTypeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/CharsetKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/CharsetKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/PhoneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/PhoneUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/StrFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/StrFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_base/src/main/java/top/easyvideo/service_base/utils/text/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/config/TokenWebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/config/TokenWebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/entity/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/entity/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/filter/TokenLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/filter/TokenLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/DefaultPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/DefaultPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/TokenLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/TokenLogoutHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/UnauthorizedEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/security/UnauthorizedEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/utils/SpringSecurityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/main/java/top/easyvideo/service_security/utils/SpringSecurityBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/test/java/top/easyvideo/service/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_common/service_security/src/test/java/top/easyvideo/service/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/java/top/easyvideo/auth_gateway/GateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/java/top/easyvideo/auth_gateway/GateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/java/top/easyvideo/auth_gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/java/top/easyvideo/auth_gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/resource/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_gateway/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/AuthorityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/AuthorityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/RoleMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/RoleMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/controller/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/RoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/RoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/RoleMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/mapper/xml/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/IndexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/RoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/RoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/IndexServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/IndexServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/RoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/java/top/easyvideo/service_authority/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/test/java/top/easyvideo/service_authority/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/test/java/top/easyvideo/service_authority/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/test/java/top/easyvideo/service_authority/TestMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_authority/src/test/java/top/easyvideo/service_authority/TestMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/CmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/CmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/controller/BannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/controller/BannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/entity/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/mapper/BannerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/mapper/BannerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/mapper/xml/BannerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/mapper/xml/BannerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/service/BannerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/service/BannerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/service/impl/BannerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/java/top/easyvideo/service_cms/service/impl/BannerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/resource/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/resource/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/test/java/top/easyvideo/service_cms/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_cms/src/test/java/top/easyvideo/service_cms/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/PayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/PayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/common/config/AliPayApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/common/config/AliPayApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/common/properties/AliPayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/common/properties/AliPayProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/AliPayCallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/AliPayCallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/PayLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/PayLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/PayOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/controller/PayOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/entity/PayLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/entity/PayLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/entity/PayOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/entity/PayOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/PayLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/PayLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/PayOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/PayOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/xml/PayLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/xml/PayLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/xml/PayOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/mapper/xml/PayOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/PayLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/PayLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/PayOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/PayOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/impl/PayLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/impl/PayLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/impl/PayOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/java/top/easyvideo/service_pay/service/impl/PayOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/resource/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/test/java/top/easyvideo/service_pay/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_pay/src/test/java/top/easyvideo/service_pay/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/SmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/SmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/constant/SmsConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/constant/SmsConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/constant/TencentAccessConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/constant/TencentAccessConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/controller/SmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/controller/SmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/service/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/utils/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/utils/MailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/utils/TencentSmsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/java/top/easyvideo/service_sms/utils/TencentSmsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/resource/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/resource/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_sms/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/UploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/UploadApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/service/UploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/service/impl/UploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/service/impl/UploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/utils/OssConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/utils/OssConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/utils/QiniuOssProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/java/top/easyvideo/service_upload/utils/QiniuOssProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/resource/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/resource/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_upload/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/controller/WechatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/controller/WechatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/mapper/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/mapper/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/utils/HttpClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/utils/WxConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/java/top/easyvideo/service_user/utils/WxConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/resource/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/resource/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/test/java/top/easyvideo/service_user/OpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_user/src/test/java/top/easyvideo/service_user/OpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/VideoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/VideoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ChapterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ChapterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentDescriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentDescriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/ContentVideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/portal/IndexPortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/controller/portal/IndexPortalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/entity/excel/CategoryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/entity/excel/CategoryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/listener/CategoryDataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/listener/CategoryDataListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/AuthorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/AuthorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ChapterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ChapterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentDescriptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentDescriptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentVideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/ContentVideoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/AuthorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/AuthorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ChapterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ChapterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentDescriptionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentDescriptionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentVideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/mapper/xml/ContentVideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ChapterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentDescriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentDescriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/ContentVideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/IndexPortalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/IndexPortalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ChapterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentDescriptionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentDescriptionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentVideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/ContentVideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/IndexPortalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/java/top/easyvideo/service_video/service/impl/IndexPortalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/resource/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/ExcelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/ExcelListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/RendExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/RendExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/StudentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/StudentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/excel/WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/utils/PlaceholderTransitionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/utils/PlaceholderTransitionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/DocxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/DocxUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/ReplaceWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/ReplaceWordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/WORD3.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/WORD3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/wordReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/word/wordReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/wordRepl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_video/src/test/java/wordRepl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/VodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/VodApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/controller/VodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/controller/VodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/service/VodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/service/VodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/service/impl/VodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/service/impl/VodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/utils/AliyunVodSDKUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/utils/AliyunVodSDKUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/utils/VodConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/java/top/easyvideo/service_vod/utils/VodConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/resource/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/resource/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_vod/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/WebSocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/WebSocketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/feign/WebsocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/feign/WebsocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/server/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/java/top/easyvideo/service_websocket/server/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/resource/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/resource/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_service/service_websocket/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/author.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/author.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/vod.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/api/vod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/order.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/web.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/css/web.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/aliplayer-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/aliplayer-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/placeholder.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/placeholder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/swiper-2.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/assets/js/swiper-2.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/components/AppLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/components/AppLogo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/loginLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/loginLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/video.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/layouts/video.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/article/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/article/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/author/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/author/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/author/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/author/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/order/_oid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/order/_oid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/player/_vid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/player/_vid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/qa/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/qa/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/video/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/video/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/video/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/pages/video/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/plugins/ElementUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/plugins/ElementUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/plugins/nuxt-swiper-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/plugins/nuxt-swiper-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_portal/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/mock-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/mock-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/mock/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/langs/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/langs/zh_CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/default/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/default/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/document/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/document/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/writer/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/content/writer/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/public/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/authority/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/cms/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/cms/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/author.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/author.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/chapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/chapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/contentVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/contentVideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/vod.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/api/video/vod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Hamburger/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Hamburger/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/data2blob.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/effectRipple.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/mimes.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Pagination/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Pagination/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/PanThumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/PanThumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/PreviewWord/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/PreviewWord/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/SvgIcon/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Tinymce/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/components/Tinymce/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/hasPermi.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/hasPermi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/hasRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/hasRole.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/directive/permission/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/dashboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/example.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/example.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/eye-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/eye-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/form.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/form.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/nested.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/nested.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/password.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/password.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/table.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/tree.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/icons/svg/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/AppMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/AppMain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Link.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/mixin/ResizeHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/_import_development.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/_import_development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/_import_production.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/_import_production.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/element-ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/element-ui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/yangbuyi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/styles/easyvideo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/errorCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/errorCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/get-page-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/get-page-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/scroll-to.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/scroll-to.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/yangbuyi.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/utils/easyvideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/404.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/menu/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/menu/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/roleForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/role/roleForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/roleForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/authority/user/roleForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/author/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/author/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/author/save.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/author/save.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/banner/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/banner/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/category/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/category/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/category/save.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/category/save.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/chapter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/chapter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/send.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/content/send.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/websocket/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/service/websocket/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/table/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/table/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/tree/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/src/views/tree/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/Hamburger.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/SvgIcon.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/formatTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/param2Obj.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/parseTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/validate.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/easyvideo_video_ui/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-authority-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-authority-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-cms-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-cms-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-pay-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-pay-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-sms-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-sms-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-upload-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-upload-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-user-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-user-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-video-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-video-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-vod-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/nacos_config/service-vod-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy_video/sql/video_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/easy_video/sql/video_db.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\srrepos\repository" />
+        <option name="userSettingsFile" value="G:\srrepos\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2G430QuuVOfJJZC2EbWoiFLExHY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GateWayApplication">
+    <configuration name="AuthorityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_authority" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_authority.AuthorityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_cms.CmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="easyvideo_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.auth_gateway.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_pay.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_sms.SmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_upload.UploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_video" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_video.VideoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_vod" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_vod.VodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.easyvideo.service_websocket.WebSocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a9d264e-f104-47b6-a2ac-3c8a0ff0c886" name="默认更改列表" comment="" />
+      <created>1665633805769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665633805769</updated>
+      <workItem from="1665633806944" duration="3510000" />
+      <workItem from="1665711298369" duration="8429000" />
+      <workItem from="1665970156906" duration="1912000" />
+      <workItem from="1665987283915" duration="594000" />
+      <workItem from="1666056972588" duration="2762000" />
+      <workItem from="1666144525880" duration="2048000" />
+      <workItem from="1666230662647" duration="1874000" />
+      <workItem from="1666316220914" duration="594000" />
+      <workItem from="1666575365771" duration="1789000" />
+      <workItem from="1666662804684" duration="8205000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1665634159838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665634159838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="init2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init2" />
   </component>
 </project>
